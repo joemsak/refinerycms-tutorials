@@ -1,6 +1,6 @@
 onOpenDialog = function(dialog) {
   $('.ui-dialog').corner('6px').find('.ui-dialog-titlebar').corner('1px top');
-  $(document.body).addClass('hide-overflow');
+  //$(document.body).addClass('hide-overflow');
 }
 
 onCloseDialog = function(dialog) {

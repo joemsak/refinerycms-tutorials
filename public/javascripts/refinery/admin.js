@@ -135,7 +135,7 @@ init_modal_dialogs = function(){
       if ($.browser.msie) {
         iframe.css({'margin':'-2px 2px 2px -2px'});
       }
-      $(document.body).addClass('hide-overflow');
+      //$(document.body).addClass('hide-overflow');
       e.preventDefault();
     });
   });
